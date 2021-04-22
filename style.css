@@ -1,4 +1,30 @@
 body {
 
-    background: rgba(255, 196, 0, 0.233);
+    background: rgb(255, 196, 0, 0.233);
+}
+
+.container {
+
+    display: flex;
+    background: white;
+}
+
+.container h1{
+    width:100;/*  if use flex basis ... doesn't need to use width ... or may be we need to use both...*/
+    flex-basis: 0px;    /*flex-basis is overwrite width  right ratio 1:1:2*/
+    height: 100px;
+    background: rgb(13, 150, 204);
+
+    border: 1px solid;
+
+}
+
+.box1 {
+    flex-grow: 1;
+}
+.box2 {
+    flex-grow: 1;
+}
+.box3 {
+    flex-grow: 2;
 }
