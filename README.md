@@ -1,4 +1,4 @@
-### This is playground for everything about webfront develepment
+### This is playground for everything about webfront development
 
 # HTML-Tutorial
 ## This is a test 
